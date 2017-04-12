@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,700);
+.gradient-new {
+  background: #F45C43;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #F45C43 0%, #EB3349 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #F45C43 0%, #EB3349 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #F45C43 0%, #8E0E00 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F45C43', endColorstr='#EB3349',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient-about {
+  background: #ff8008;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #43cea2 0%, #185a9d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #43cea2 0%, #185a9d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43cea2', endColorstr='#185a9d',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradient-contact {
+  background: #ff8008;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffd194 0%, #d1913c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ffd194 0%, #d1913c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ffd194 0%, #d1913c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd194', endColorstr='#d1913c',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.mow {
+  margin-left: 10px;
+}
+
+.social {
+  transition: 0.6s;
+}
+
+.social:hover {
+  transition: 0.8s;
+}
+
+.fa-twitter:hover {
+  color: #55acee;
+  transition: 0.8s;
+}
+
+.fa-instagram:hover {
+  color: #8a3ab9;
+  transition: 0.8s;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+  transition: 0.8s;
+}
+
+.fa-github:hover {
+  color: #000;
+  transition: 0.8s;
+}
+
+.radius {
+  border-radius: 30px;
+  width: 260px;
+}
+
+.pink {
+  background: #ee6e73 !important;
+}
+
+.all {
+  margin-bottom: 0px !important;
+}
+
+.brand-logo {
+  background-image: url("../img/logo.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 56px !important;
+  padding-right: 92px !important;
+  transition: 0.5s;
+}
+
+.brand-logo:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+.home {
+  padding-top: 60px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.home img {
+  transition: 0.7s;
+}
+
+.home img:hover {
+  opacity: 0.5;
+  transition: 0.7s;
+}
+
+.home .center {
+  margin-bottom: 100px;
+}
+
+.home .center span {
+  font-weight: bold;
+}
+
+.content .sidebar {
+  padding-top: 150px;
+  height: 1208px;
+  box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (max-width: 600px) {
+  .content .sidebar {
+    height: 500px;
+  }
+}
+
+.content .sidebar .fixed {
+  position: fixed;
+  height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+  .content .sidebar .fixed {
+    position: inherit;
+    padding-left: 0px;
+  }
+}
+
+.buttons {
+  padding-top: 195px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.buttons .btn {
+  margin-bottom: 25px;
+}
+
+.get {
+  padding-top: 140px;
+}
+
+.get .code {
+  background-color: #282c34;
+  color: white;
+}
+
+.get .code .tag {
+  color: #e06c75;
+}
+
+.get2 {
+  padding-bottom: 140px;
+}
+
+.about {
+  padding-top: 140px;
+}
+
+.about .fa-plus {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.about .card {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-radius: 14px !important;
+}
+
+.about .card .card-image {
+  border-radius: 100%;
+  padding-left: 38%;
+}
+
+.about .card .card-image img {
+  width: 40%;
+}
+
+.about .card .fa {
+  color: #212121;
+  transition: 0.5s;
+  margin-right: 20px;
+}
+
+.about .card .fa:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.about .card .card-content {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.about .card .card-content h5 {
+  line-height: 163% !important;
+  font-size: 20px !important;
+  text-indent: 30px;
+}
+
+.page-footer {
+  margin-top: 0px !important;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(meh.html) format("woff2");
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

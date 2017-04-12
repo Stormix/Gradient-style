@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <%- include partials/header.ejs %>
+</head>
+
+<body>
+    <a href="https://github.com/smakosh"><img style="position: absolute; top: 59px; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67"
+            alt="Fork me on GitHub" data-canonical-src="../../s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white ">
+                <a href="http://smakosh.com/Gradient-style" class="brand-logo center"></a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid content">
+        <div class="row all">
+            <div class="col s12 m2 l2 center-align sidebar ">
+                <div class="fixed col s12 m2 l2">
+                    <%- include partials/menu.ejs %>
+                </div>
+            </div>
+
+            <div class="col s12 m10 l10 center-align buttons">
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-pinotnoir ' class='btn btn-large waves-effect radius waves-light gradient-pinotnoir '>gradient-pinotnoir </button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-daytripper' class='btn btn-large waves-effect radius waves-light gradient-daytripper'>gradient-daytripper</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-miaka' class='btn btn-large waves-effect radius waves-light gradient-miaka'>gradient-miaka</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-shrimpy' class='btn btn-large waves-effect radius waves-light gradient-shrimpy'>gradient-shrimpy</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-influenza' class='btn btn-large waves-effect radius waves-light gradient-influenza'>gradient-influenza</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-decent' class='btn btn-large waves-effect radius waves-light gradient-decent'>gradient-decent</button></div>
+                </div>
+
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-titanium' class='btn btn-large waves-effect radius waves-light gradient-titanium'>gradient-titanium</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-opa' class='btn btn-large waves-effect radius waves-light gradient-opa'>gradient-opa</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-seablizz' class='btn btn-large waves-effect radius waves-light gradient-seablizz'>gradient-seablizz</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-greenblue' class='btn btn-large waves-effect radius waves-light gradient-greenblue'>gradient-greenblue</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-lightorange' class='btn btn-large waves-effect radius waves-light gradient-lightorange'>gradient-lightorange</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-netflix' class='btn btn-large waves-effect radius waves-light gradient-netflix'>gradient-netflix</button></div>
+                </div>
+
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-midnightcity' class='btn btn-large waves-effect radius waves-light gradient-midnightcity'>gradient-midnightcity</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-mystic' class='btn btn-large waves-effect radius waves-light gradient-mystic'>gradient-mystic</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-shroomhaze' class='btn btn-large waves-effect radius waves-light gradient-shroomhaze'>gradient-shroomhaze</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-moss' class='btn btn-large waves-effect radius waves-light gradient-moss'>gradient-moss</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-firewatch' class='btn btn-large waves-effect radius waves-light gradient-firewatch'>gradient-firewatch</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-lush' class='btn btn-large waves-effect radius waves-light gradient-lush'>gradient-lush</button></div>
+                </div>
+
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-frost' class='btn btn-large waves-effect radius waves-light gradient-frost'>gradient-frost</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-mauve' class='btn btn-large waves-effect radius waves-light gradient-mauve'>gradient-mauve</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-royal' class='btn btn-large waves-effect radius waves-light gradient-royal'>gradient-royal</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-minimalred' class='btn btn-large waves-effect radius waves-light gradient-minimalred'>gradient-minimalred</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-dusk' class='btn btn-large waves-effect radius waves-light gradient-dusk'>gradient-dusk</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-deepseaspace' class='btn btn-large waves-effect radius waves-light gradient-deepseaspace'>gradient-deepseaspace</button></div>
+                </div>
+
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-grapefruitsunset' class='btn btn-large waves-effect radius waves-light gradient-grapefruitsunset'>gradient-grapefruitsunset</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-sunset' class='btn btn-large waves-effect radius waves-light gradient-sunset'>gradient-sunset</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-soinvault' class='btn btn-large waves-effect radius waves-light gradient-soinvault'>gradient-soinvault</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-brightvault' class='btn btn-large waves-effect radius waves-light gradient-brightvault'>gradient-brightvault</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-politics' class='btn btn-large waves-effect radius waves-light gradient-politics'>gradient-politics</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-sweetmorning' class='btn btn-large waves-effect radius waves-light gradient-sweetmorning'>gradient-sweetmorning</button></div>
+                </div>
+
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-sylvia' class='btn btn-large waves-effect radius waves-light gradient-sylvia'>gradient-sylvia</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-transfile' class='btn btn-large waves-effect radius waves-light gradient-transfile'>gradient-transfile</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-tranquil' class='btn btn-large waves-effect radius waves-light gradient-tranquil'>gradient-tranquil</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-redocean' class='btn btn-large waves-effect radius waves-light gradient-redocean'>gradient-redocean</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-shahabi' class='btn btn-large waves-effect radius waves-light gradient-shahabi'>gradient-shahabi</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-purplewhite' class='btn btn-large waves-effect radius waves-light gradient-purplewhite'>gradient-purplewhite</button></div>
+                </div>
+
+                <div class="row">
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-colorsofsky' class='btn btn-large waves-effect radius waves-light gradient-colorsofsky'>gradient-colorsofsky</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-deepspace' class='btn btn-large waves-effect radius waves-light gradient-deepspace'>gradient-deepspace</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-darkskies' class='btn btn-large waves-effect radius waves-light gradient-darkskies'>gradient-darkskies</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-superman' class='btn btn-large waves-effect radius waves-light gradient-superman'>gradient-superman</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-nighthawk' class='btn btn-large waves-effect radius waves-light gradient-nighthawk'>gradient-nighthawk</button></div>
+                    <div class='col s12 m6 l4'><button data-clipboard-text='gradient-forest' class='btn btn-large waves-effect radius waves-light gradient-forest'>gradient-forest</button></div>
+                </div><br><br><br>
+
+                
+                <div id="test"></div>
+            </div>
+        </div>
+        <footer class="page-footer gradient-shroomhaze">
+            <%- include partials/footer.ejs %>
+        </footer>
+
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript">
+        new Clipboard('.btn');
+        $('.radius').click(function() {
+            Materialize.toast('Copied', 2000);
+        })
+        // Smooth Scroll
+        $(document).on('click', 'a[href*="#"]:not([href="#"])', function(e) {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length && target.selector.indexOf('#top') > -1) {
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top - 55)
+                    }, 1000);
+                    e.preventDefault();
+                } else if (target.length && target.selector.indexOf('#top') < 1 && target.selector != '') {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    e.preventDefault();
+                }
+            }
+        });
+        $(window).scroll(function() {
+            if ($('body').scrollTop() + $(window).height() == $('body').height()) {
+                fetch_page();
+            }
+        });
+        var fetch_page = function() {
+            $.getJSON('/fetch',function(data) {
+                // render your data here.
+                document.getElementById("test").innerHTML = data;
+                if (data.length == 0) {
+                    // hide the `more` tag, show that there are no more data.
+                    // do not disable the lock in this case.
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

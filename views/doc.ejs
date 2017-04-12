@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <%- include partials/header.ejs %>
+</head>
+
+<body>
+    <a href="https://github.com/smakosh"><img style="position: absolute; top: 59px; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67"
+            alt="Fork me on GitHub" data-canonical-src="../../s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white ">
+                <a href="http://smakosh.com/Gradient-style" class="brand-logo center"></a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid content">
+        <div class="row all">
+            <div class="col s12 m2 l2 center-align sidebar ">
+                <div class="fixed col s12 m2 l2">
+                    <%- include partials/menu.ejs %>
+                </div>
+            </div>
+
+            <div class="col s12 m10 l10 center-align buttons">
+                <div class="row" id="butts">
+
+                </div>
+                <br><br><br>
+            </div>
+        </div>
+        <footer class="page-footer gradient-shroomhaze">
+            <%- include partials/footer.ejs %>
+        </footer>
+
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript">
+        $('.radius').click(function() {
+            Materialize.toast('Copied', 2000);
+        })
+        // Smooth Scroll
+        $(document).on('click', 'a[href*="#"]:not([href="#"])', function(e) {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length && target.selector.indexOf('#top') > -1) {
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top - 55)
+                    }, 1000);
+                    e.preventDefault();
+                } else if (target.length && target.selector.indexOf('#top') < 1 && target.selector != '') {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    e.preventDefault();
+                }
+            }
+        });
+        function slugify(text)
+            {
+              return text.toString().toLowerCase()
+                .replace(/\s+/g, '-')           // Replace spaces with -
+                .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+                .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+                .replace(/^-+/, '')             // Trim - from start of text
+                .replace(/-+$/, '');            // Trim - from end of text
+            }
+        $.ajax({
+            type: 'GET',
+            url: '/fetch',
+            data: {},
+            dataType: 'json',
+            success: function(data) {
+                $.each(data, function(index, element) {
+                    $('#butts').append('<div style="'+(element.style)+'" data-clipboard-text="gradient-' +
+                        (slugify(element.name)) +
+                        '" class="btn btn-large waves-effect radius waves-light">'+(element.name)+'</div><br>');
+                });
+                new Clipboard('.btn');
+            }
+        });
+    </script>
+</body>
+
+</html>

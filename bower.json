@@ -1,0 +1,23 @@
+{
+  "name": "gradient-style",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Anas Mazouni <madadj4@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Stormiix/Gradient-style",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "materialize": "^0.98.1",
+    "font-awesome": "^4.7.0"
+  }
+}

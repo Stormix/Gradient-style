@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <%- include partials/header.ejs %>
+</head>
+
+    <body>
+        <a href="https://github.com/smakosh"><img style="position: absolute; top: 59px; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67"
+                alt="Fork me on GitHub" data-canonical-src="../../s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper white ">
+                    <a href="http://smakosh.com/Gradient-style" class="brand-logo center"></a>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="container-fluid content">
+            <div class="row all">
+                <div class="col s12 m2 l2 center-align sidebar ">
+                    <div class="fixed col s12 m2 l2">
+                      <%- include partials/menu.ejs %>
+                    </div>
+                </div>
+
+                <div class="col s12 m10 l10 center-align home">
+
+                    <div class="center">
+                        <h4><span>Gradient-Style </span>// Gradient library</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m4 l4">
+                            <a href="#scroll"><img src="img/doc.svg" alt="documentation"></a><br>
+                            <a class="btn btn-large waves-effect waves-light gradient-new" href="#scroll">Learn more <i class="fa fa-angle-right right"></i></a>
+                        </div>
+
+                        <div class="col s12 m4 l4">
+                            <a href="about.html"><img src="img/about.svg" alt="documentation"></a><br>
+                            <a class="btn btn-large waves-effect waves-light gradient-about" href="/about"><i class="material-icons left">account_circle</i> About</a>
+                        </div>
+
+                        <div class="col s12 m4 l4">
+                            <a href="contact.html"><img src="img/contact.svg" alt="documentation"></a><br>
+                            <a class="btn btn-large waves-effect waves-light gradient-contact" target="_blank" href="http://smakosh.com/"><i class="material-icons left">email</i> Contact</a>
+                        </div>
+                    </div>
+
+                    <div class="row get" id="scroll">
+
+                        <div class="col  m1 hide-on-small-only"></div>
+                        <div class="col s12 m10 l10 ">
+                            <h5 class="left-align">Links</h5><br>
+                            <div class="card left-align code hoverable">
+                                <pre class=" language-markup"><code class=" language-markup">
+                                  <span class="token comment" spellcheck="true">&lt;!-- Compiled CSS --&gt;</span>
+                                  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://smakosh.com/Gradient-style.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+
+                                </code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row get2">
+                        <div class="col  m1 hide-on-small-only"></div>
+                        <div class="col s12 m5 l5 left-align">
+                            <h5>Gradient-style</h5><br>
+                            <a href="Gradient-style.zip" class="btn btn-large waves-effect waves-light gradient-pinotnoir">Download
+            <i class="material-icons right">file_download</i></a>
+                        </div>
+                        <div class="col s12 m5 l5 left-align">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+        <footer class="page-footer gradient-shroomhaze">
+            <%- include partials/footer.ejs %>
+        </footer>
+
+        </div>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript">
+            new Clipboard('.btn');
+            $('.radius').click(function() {
+                Materialize.toast('Copied', 2000);
+            })
+            // Smooth Scroll
+            $(document).on('click', 'a[href*="#"]:not([href="#"])', function(e) {
+                if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length && target.selector.indexOf('#top') > -1) {
+                        $('html, body').animate({
+                            scrollTop: (target.offset().top - 55)
+                        }, 1000);
+                        e.preventDefault();
+                    } else if (target.length && target.selector.indexOf('#top') < 1 && target.selector != '') {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        e.preventDefault();
+                    }
+                }
+            });
+        </script>
+    </body>
+
+</html>

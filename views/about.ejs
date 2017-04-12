@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <%- include partials/header.ejs %>
+</head>
+
+<body>
+    <a href="https://github.com/smakosh"><img style="position: absolute; top: 59px; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67"
+            alt="Fork me on GitHub" data-canonical-src="../../s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper white ">
+                <a href="http://smakosh.com/Gradient-style" class="brand-logo center"></a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid content">
+        <div class="row all">
+            <div class="col s12 m2 l2 center-align sidebar ">
+                <div class="fixed col s12 m2 l2">
+                    <%- include partials/menu.ejs %>
+                </div>
+            </div>
+
+            <div class="col s12 m10 l10 center-align ">
+                <div class="row about">
+                    <div class="col s12 m8 l8 ">
+                        <div class="card">
+
+                            <div class="card-image">
+                                <img src="img/me.png">
+                            </div><br>
+
+                            <div class="lel">
+                                <a href="https://twitter.com/smakosh" target="_blank"><i class="fa fa-twitter"></i></a>
+
+
+                                <a href="https://www.instagram.com/smakosh19/" target="_blank"><i class="fa fa-instagram"></i></a>
+
+
+                                <a href="http://smakosh.com/" target="_blank"><i class="fa fa-globe"></i></a>
+
+
+                                <a href="https://github.com/smakosh" target="_blank"><i class="fa fa-github"></i></a>
+
+                            </div>
+
+                            <div class="card-content left-align">
+                                <h5>As some of you may notice that all i did was copying the HEX code from UIGradient
+         & Pasting it into my css file, yes but here's the problem i solved which is "every time when i'm
+           styling my UI, i had always to type or copy paste all that gradient style which is painful in my opinion,
+           so the solution was to store every gradient style into one css file & publish it as an open source project
+            that anyone can submit a new gradient colors that i'll add when i'm free, presented as buttons on a web app that
+           will let me get the name of the class of the gradient i'm looking for", and that was the solution, thanks to UIGradient
+         & for the folks at Github for all the beautiful gradient colors.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4 l4">
+                        <div class="col s12 m12 l12">
+                            <img src="img/uigrad.svg" alt="uigradient">
+                        </div>
+                        <div class="col s12 m12 l12 plus">
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <div class="col s12 m12 l12">
+                            <img src="img/magic.svg" alt="magic">
+                        </div>
+
+                        <div class="col s12 m12 l12">
+                            <img src="img/print.svg" alt="print">
+                        </div>
+
+                        <div class="col s12 m12 l12">
+                            <img src="img/result.svg" alt="result">
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <footer class="page-footer gradient-shroomhaze">
+        <%- include partials/footer.ejs %>
+    </footer>
+
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript">
+        new Clipboard('.btn');
+        $('.radius').click(function() {
+            Materialize.toast('Copied', 2000);
+        })
+        // Smooth Scroll
+        $(document).on('click', 'a[href*="#"]:not([href="#"])', function(e) {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length && target.selector.indexOf('#top') > -1) {
+                    $('html, body').animate({
+                        scrollTop: (target.offset().top - 55)
+                    }, 1000);
+                    e.preventDefault();
+                } else if (target.length && target.selector.indexOf('#top') < 1 && target.selector != '') {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    e.preventDefault();
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
